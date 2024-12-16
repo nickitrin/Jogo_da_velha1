@@ -8,18 +8,10 @@
 </head>
 <body>
     <h1>Jogo da Velha</h1>
-    <div class="game-board">
-        <button class="cell" data-position="0"></button>
-        <button class="cell" data-position="1"></button>
-        <button class="cell" data-position="2"></button>
-        <button class="cell" data-position="3"></button>
-        <button class="cell" data-position="4"></button>
-        <button class="cell" data-position="5"></button>
-        <button class="cell" data-position="6"></button>
-        <button class="cell" data-position="7"></button>
-        <button class="cell" data-position="8"></button>
+    <div id="game-board">
+        <!-- Tabuleiro será gerado aqui -->
     </div>
-    <div id="status"></div>
-    <script src="{{ url_for('static', filename='script.js') }}"></script>
+    <p id="status"></p>
+    <script src="/static/script.js"></script>
 </body>
 </html>
